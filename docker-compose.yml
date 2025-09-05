@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  selfgenerateai:
+    build: .
+    container_name: selfgenerateai_app
+    ports:
+      - "5000:5000"   # Flask backend
+      - "8501:8501"   # Streamlit frontend
+    volumes:
+      - .:/app        # so changes reflect inside container
+    restart: unless-stopped

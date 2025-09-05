@@ -1,0 +1,8 @@
+[
+  {
+    "prompt": "Explain why the sky is blue.",
+    "chosen": "The sky looks blue because air molecules scatter sunlight. Blue light scatters more than other colors.",
+    "rejected": "The sky is blue because it wants to be.",
+    "score": 3
+  }
+]

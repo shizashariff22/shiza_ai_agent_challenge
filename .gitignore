@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+env/
+selfrag/
+pyvenv.cfg
+
+# Secrets
+.env
+
+# Streamlit
+.streamlit/
