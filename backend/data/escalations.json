@@ -2,11 +2,21 @@
   {
     "query": "your test query",
     "ai_answer": "your test answer",
-    "status": "open"
+    "status": "resolved"
   },
   {
     "query": "we are all aliewns",
     "ai_answer": "That's a profound perspective. It beautifully captures the idea that despite our individual differences, we all share a unique journey and perspective on life. In a way, it highlights our shared humanity within the vastness of the universe.",
+    "status": "resolved"
+  },
+  {
+    "query": "tell me about aliens",
+    "ai_answer": "Aliens, or extraterrestrial life, refer to any life forms believed to originate from outside of Earth. While often depicted as intelligent beings in fiction, the term can encompass anything from simple microbes to complex civilizations. Currently, there is no scientific evidence confirming their existence.",
+    "status": "open"
+  },
+  {
+    "query": "what courses do  they offer",
+    "ai_answer": "Rooman Technologies primarily offers IT and skill development courses. Their programs typically cover areas such as software development, cloud computing, data science, cybersecurity, and digital marketing.",
     "status": "resolved"
   }
 ]

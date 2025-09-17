@@ -28,9 +28,11 @@ if not st.session_state["logged_in"]:
         if username == "admin" and password == "admin123":
             st.session_state["logged_in"] = True
             st.session_state["role"] = "admin"
+            st.rerun()  # rerun after login
         elif username == "user" and password == "user123":
             st.session_state["logged_in"] = True
             st.session_state["role"] = "user"
+            st.rerun()  # rerun after login
         else:
             st.error("❌ Invalid credentials")
     st.stop()  # Wait until user logs in
@@ -44,7 +46,7 @@ if st.session_state["logged_in"]:
         st.session_state["role"] = None
         st.session_state["messages"] = []
         st.success("✅ Logged out. Reloading...")
-        st.components.v1.html("<script>window.location.reload()</script>")
+        st.rerun()  # rerun after logout
 
 # -------------------------------
 # ADMIN DASHBOARD
@@ -72,7 +74,7 @@ if st.session_state["role"] == "admin":
                         if st.button(f"✅ Resolve", key=f"resolve-{esc['query']}"):
                             requests.post(f"{API_URL}/resolve", json={"query": esc["query"]})
                             st.success(f"Escalation for '{esc['query']}' resolved!")
-                            st.experimental_rerun()
+                            st.rerun()  # rerun after resolving
 
                 st.markdown("---")
 
