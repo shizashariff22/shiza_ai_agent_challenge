@@ -1,0 +1,12 @@
+[
+  {
+    "query": "your test query",
+    "ai_answer": "your test answer",
+    "status": "open"
+  },
+  {
+    "query": "we are all aliewns",
+    "ai_answer": "That's a profound perspective. It beautifully captures the idea that despite our individual differences, we all share a unique journey and perspective on life. In a way, it highlights our shared humanity within the vastness of the universe.",
+    "status": "resolved"
+  }
+]

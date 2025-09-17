@@ -16,3 +16,4 @@ EXPOSE 8501
 
 # Start both Flask (backend) + Streamlit (frontend)
 CMD ["sh", "-c", "python app.py & streamlit run ui.py --server.port=8501 --server.address=0.0.0.0"]
+

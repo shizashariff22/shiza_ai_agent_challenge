@@ -1,8 +1,0 @@
-Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think and learn like humans.
-Machine learning is a subset of AI focused on building systems that learn from data and improve performance over time.
-Natural Language Processing (NLP) is a branch of AI that deals with the interaction between computers and human languages.
-Deep learning is a subfield of machine learning that uses neural networks with many layers to model complex patterns.
-The capital of India is New Delhi.
-The largest planet in the solar system is Jupiter.
-Python is a popular programming language for data science, AI, and web development.
-The founder of SpaceX is Elon Musk.
